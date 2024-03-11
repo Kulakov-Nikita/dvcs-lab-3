@@ -10,15 +10,16 @@ public class Spline {
     private final double[] fx; // input data
     private final double[] fy;
     private final double[] fA; // interpolation coefficients
-    private final double[] fB; // Random commit
-    private final double[] fC;
+    private final double[] fB;
+    private final double[] fC; // Random text
 
     private final double[] fBoundCond1 = new double[2];
     private final double[] fBoundCondN = new double[2];
     
     private final String helloWorld = "Hello World";
 
-    private final int iUselessVar;
+    private final int iUselessVar2;
+
     /**
      * default constructor
      *
@@ -52,6 +53,8 @@ public class Spline {
         SetupBoundaryConditions();
         CalcCoefficients();
     }
+
+    private final int a =5;
 
     /**
      * computation of natural cubic spline coefficients
