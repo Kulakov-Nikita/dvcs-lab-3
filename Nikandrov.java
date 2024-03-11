@@ -100,7 +100,7 @@ public class TRandom {
      * @param sigma width of Gauss function
      * @return random number from the standard Normal (Gaussian) Distribution
      */
-    public static double Gaus(final double mean, final double sigma) {
+    public static double Gaus(final double mean, final double sigma) { //change 3
         final double kC1 = 1.448242853;
         final double kC2 = 3.307147487;
         final double kC3 = 1.46754004;
