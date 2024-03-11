@@ -52,6 +52,8 @@ public class Spline {
         CalcCoefficients();
     }
 
+    private final int a =5;
+
     /**
      * computation of natural cubic spline coefficients
      */
