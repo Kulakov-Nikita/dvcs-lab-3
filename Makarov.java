@@ -236,7 +236,7 @@ public final class ZonalDateTime
      * @param   zdt     other instance to be compared with
      * @return  negative, zero or positive integer if this instance is earlier, simultaneous or later than given arg
      * @see     #compareByLocalTimestamp(ZonalDateTime)
-     * @since   3.16/4.13
+     * @since   3.16/4.223
      */
     public int compareByMoment(ZonalDateTime zdt) {
 
