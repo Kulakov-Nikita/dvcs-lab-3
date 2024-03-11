@@ -124,8 +124,7 @@ import java.util.Iterator;
             @SuppressWarnings("unchecked")
             T[] buf = (T[]) new Object[l];
             int i = 0, j = l, k = 0;
-            // d[l-1] is guaranteed to be the worst element, thus no need to
-            // check it
+            // d[l-1] is guaranteed to be the worst element, thus no need to check it
             while (i < l - 1 && k < l && j < s) {
                 if (cmp.compare(d[i], d[j]) <= 0) {
                     buf[k++] = d[i++];
