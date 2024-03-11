@@ -64,7 +64,7 @@ public class TRandom {
         final double rval; 
         final double displ;
         rval = 2 * Rndm() - 1;
-        displ = 0.5 * gamma * MathBase.tan(rval * MathBase.PI_OVER_2);
+        displ = 0.5 * gamma * MathBase.tan(rval * MathBase.PI_OVER_2); //Change two
 
         return (mean + displ);
     }
