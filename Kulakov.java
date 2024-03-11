@@ -10,12 +10,13 @@ public class Spline {
     private final double[] fx; // input data
     private final double[] fy;
     private final double[] fA; // interpolation coefficients
-    private final double[] fB;
+    private final double[] fB; // Random commit
     private final double[] fC;
 
     private final double[] fBoundCond1 = new double[2];
     private final double[] fBoundCondN = new double[2];
-
+    
+    private final int iUselessVar;
     /**
      * default constructor
      *
