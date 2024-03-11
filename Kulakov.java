@@ -16,6 +16,8 @@ public class Spline {
     private final double[] fBoundCond1 = new double[2];
     private final double[] fBoundCondN = new double[2];
     
+    private final String helloWorld = "Hello World";
+
     private final int iUselessVar;
     /**
      * default constructor
