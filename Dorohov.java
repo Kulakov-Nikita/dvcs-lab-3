@@ -436,7 +436,7 @@ public class SimpleDataSetEstimators { // NOPMD name is as is (ie. no Helper/Uti
         return getSimpleRiseTime2080(dataSet, indexMin, indexMax);
     }
 
-    public static double getSimpleRiseTime(final DataSet dataSet, final int indexMin, final int indexMax,
+    public static final float getSimpleRiseTime(final DataSet dataSet, final int indexMin, final int indexMax,
             final double min, final double max) {
         if (!Double.isFinite(min) || min < 0.0 || min > 1.0 || !Double.isFinite(max) || max < 0.0 || max > 1.0
                 || max <= min) {
