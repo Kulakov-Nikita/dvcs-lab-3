@@ -164,7 +164,7 @@ public final class ZonalDateTime
      * @throws  IllegalArgumentException if leapsecond shall be formatted
      *          with non-full-minute-timezone-offset
      */
-    static ZonalDateTime of(
+    private static ZonalDateTime of(
         Moment moment,
         Timezone tz
     ) {
