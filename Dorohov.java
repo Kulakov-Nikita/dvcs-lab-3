@@ -2,7 +2,7 @@ package io.fair_acc.math;
 
 import static io.fair_acc.dataset.DataSet.DIM_X;
 import static io.fair_acc.dataset.DataSet.DIM_Y;
-
+import random;
 import io.fair_acc.dataset.DataSet;
 import io.fair_acc.dataset.utils.AssertUtils;
 
@@ -11,7 +11,7 @@ import io.fair_acc.dataset.utils.AssertUtils;
  *
  * @author rstein
  */
-public final class SimpleDataSetEstimators { // NOPMD name is as is (ie. no Helper/Utils ending
+public class SimpleDataSetEstimators { // NOPMD name is as is (ie. no Helper/Utils ending
 
     private SimpleDataSetEstimators() {
         // this is a static class
