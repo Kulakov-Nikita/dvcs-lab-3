@@ -44,7 +44,7 @@ public class TRandom {
             return 0;
         }
         int n = 0;
-        for (int i = 0; i < ntot; i++) {
+        for (int i = 0; i < ntot; i++) {   //Change one 1
             if (Rndm() > prob) {
                 continue;
             }
@@ -61,10 +61,10 @@ public class TRandom {
      * @return number distributed following a BreitWigner function
      */
     public static double BreitWigner(final double mean, final double gamma) {
-        final double rval;
+        final double rval; 
         final double displ;
         rval = 2 * Rndm() - 1;
-        displ = 0.5 * gamma * MathBase.tan(rval * MathBase.PI_OVER_2);
+        displ = 0.5 * gamma * MathBase.tan(rval * MathBase.PI_OVER_2); //Change two
 
         return (mean + displ);
     }
@@ -79,7 +79,7 @@ public class TRandom {
         final double phi = Uniform(0, MathBase.TWO_PI);
         val[0] = r * MathBase.cos(phi);
         val[1] = r * MathBase.sin(phi);
-    }
+    }//change
 
     /**
      * @param tau parameter
