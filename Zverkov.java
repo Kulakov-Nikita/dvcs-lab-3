@@ -18,7 +18,6 @@ package one.util.streamex;
 import java.util.AbstractCollection;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.Iterator;
 
 /**
  * Extracts least limit elements from the input sorting them according to the
