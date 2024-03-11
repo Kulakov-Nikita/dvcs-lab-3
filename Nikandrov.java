@@ -128,7 +128,7 @@ public class TRandom {
         final double kT = 0.03895759111;
 
         final double result;
-        double rn;
+        double rn;//change
         double x;
         double y;
         double z;
