@@ -79,7 +79,7 @@ public class TRandom {
         final double phi = Uniform(0, MathBase.TWO_PI);
         val[0] = r * MathBase.cos(phi);
         val[1] = r * MathBase.sin(phi);
-    }
+    }//change
 
     /**
      * @param tau parameter
