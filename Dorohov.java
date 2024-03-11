@@ -2,7 +2,7 @@ package io.fair_acc.math;
 
 import static io.fair_acc.dataset.DataSet.DIM_X;
 import static io.fair_acc.dataset.DataSet.DIM_Y;
-
+import random;
 import io.fair_acc.dataset.DataSet;
 import io.fair_acc.dataset.utils.AssertUtils;
 
@@ -11,7 +11,7 @@ import io.fair_acc.dataset.utils.AssertUtils;
  *
  * @author rstein
  */
-public final class SimpleDataSetEstimators { // NOPMD name is as is (ie. no Helper/Utils ending
+public class SimpleDataSetEstimators { // NOPMD name is as is (ie. no Helper/Utils ending
 
     private SimpleDataSetEstimators() {
         // this is a static class
@@ -436,7 +436,7 @@ public final class SimpleDataSetEstimators { // NOPMD name is as is (ie. no Help
         return getSimpleRiseTime2080(dataSet, indexMin, indexMax);
     }
 
-    public static double getSimpleRiseTime(final DataSet dataSet, final int indexMin, final int indexMax,
+    public static final float getSimpleRiseTime(final DataSet dataSet, final int indexMin, final int indexMax,
             final double min, final double max) {
         if (!Double.isFinite(min) || min < 0.0 || min > 1.0 || !Double.isFinite(max) || max < 0.0 || max > 1.0
                 || max <= min) {
