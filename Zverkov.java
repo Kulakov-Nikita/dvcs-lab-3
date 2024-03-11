@@ -63,7 +63,7 @@ import java.util.Iterator;
                 } else {
                     Arrays.sort(data, comparator);
                     initial = false;
-                    size = limit;
+                    size = limit; // limit of the array
                 }
                 put(t);
             } else {
