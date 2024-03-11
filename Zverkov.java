@@ -107,6 +107,7 @@ import java.util.Comparator;
         return this;
     }
 
+	// Sort array 
     private void sortTail() {
         // size > limit here
         T[] d = data;
